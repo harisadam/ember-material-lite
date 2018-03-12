@@ -13,11 +13,11 @@ module.exports = {
 
   afterInstall() {
     return RSVP.all([
-      this.addPackageToProject('ember-cli-sass', '^5.3.1'),
-      this.addPackageToProject('ember-cli-autoprefixer', '~0.6.0'),
-      this.addPackageToProject('ember-new-computed', '^1.0.3'),
-      this.addPackageToProject('ember-truth-helpers', '~2.0.0'),
-      this.addPackageToProject('ember-composability', '^0.3.8'),
+      //this.addPackageToProject('ember-cli-sass', '^5.3.1'),
+      //this.addPackageToProject('ember-cli-autoprefixer', '~0.6.0'),
+      //this.addPackageToProject('ember-new-computed', '^1.0.3'),
+      //this.addPackageToProject('ember-truth-helpers', '~2.0.0'),
+      //this.addPackageToProject('ember-composability', '^0.3.8'),
     ]);
   }
 };
